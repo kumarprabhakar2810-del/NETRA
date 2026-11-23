@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(49, 26, 82);
+    color: white;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+}
+
+.topbar {
+    background-color: #131313;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 4%;
+    border-bottom: 1px solid #ccc;
+
+
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.brand-logo {
+    background-color: rgb(92, 167, 170); 
+    padding: 5px;
+    font-size: 23px;
+    font-weight: bold;
+    border-radius: 10%;
+}
+
+.BRAND h1 {
+    color: blueviolet;
+letter-spacing: 3px;
+}
+
+.brand p {
+    color: rgb(92, 167, 170);
+    font-size: 12px;
+}
+    
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: rgb(231, 220, 220);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(199, 187, 187);
+}
+
+.online-dot{
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+#clock {
+    color: rgb(92, 167, 170);
+    margin-left: 10px;
+    font-family: monospace;
+}
+
+button{
+    background-color: rgb(20, 134, 138);
+    color: white;
+    border: none;
+    padding: 13px 24px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(104, 95, 206);
+}
